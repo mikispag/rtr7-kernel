@@ -126,20 +126,11 @@ CONFIG_NVME_TARGET_PASSTHRU=y
 # For https://www.fs.com/products/75602.html and https://www.fs.com/products/75603.html network cards:
 CONFIG_I40E=y
 
-# For Broadcom 57414 10/25 Gbit/s network card:
-CONFIG_BNXT=y
-
-# For Mellanox ConnectX-4 25 Gbit/s network cards:
-CONFIG_MLX5_EN=y
-CONFIG_MLX5_CORE=y
-CONFIG_MLX5_CORE_EN=y
-CONFIG_MLX5_INFINIBAND=n
-
-# For apu2c4 ethernet ports
-CONFIG_IGB=y
-
 # For Intel I225 ethernet ports (ASRock B550 Taichi):
 CONFIG_IGC=y
+
+# For Intel 10GbE PCI Express adapters support like the X550-T2
+CONFIG_IXGBE=y
 
 # For /proc/config.gz
 CONFIG_IKCONFIG=y
