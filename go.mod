@@ -1,4 +1,4 @@
-module github.com/rtr7/kernel
+module github.com/mikispag/rtr7-kernel
 
 go 1.17
 
